@@ -1,11 +1,8 @@
-package com.example.repository.clientApi
+package com.example.repository.api
 
-import com.example.repository.GsonBean.SongDetailJson
-import com.example.repository.GsonBean.SongPlayJson
-import com.example.repository.GsonBean.UserPlayListJson
-import com.example.repository.bean.LyricJson
-import com.example.repository.bean.SongIdsJson
-import com.example.repository.callback.RequestCallBack
+import com.example.repository.RequestCallBack
+import com.example.repository.bean.*
+
 
 /**
  * 暴露给用户使用的，与音乐有关的Api.

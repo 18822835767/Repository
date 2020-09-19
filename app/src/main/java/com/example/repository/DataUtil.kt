@@ -1,6 +1,5 @@
 package com.example.repository
 
-import com.example.repository.callback.RequestCallBack
 
 object DataUtil {
     

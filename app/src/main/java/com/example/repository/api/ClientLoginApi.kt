@@ -1,7 +1,7 @@
-package com.example.repository.clientApi
+package com.example.repository.api
 
-import com.example.repository.GsonBean.UserJson
-import com.example.repository.callback.RequestCallBack
+import com.example.repository.RequestCallBack
+import com.example.repository.bean.UserJson
 
 /**
  * 暴露给用户使用的Api.
