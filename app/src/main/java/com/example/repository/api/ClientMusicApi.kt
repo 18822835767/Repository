@@ -19,7 +19,7 @@ interface ClientMusicApi {
     fun getSongListDetail(id: Long, callBack: RequestCallBack<SongIdsJson>)
 
     /**
-     * 传入歌曲的id，获取歌曲详情.
+     * 传入歌曲的多个id，获取歌曲详情，歌曲详情有的信息：歌曲名字、歌手名字、专辑图片...等信息
      * */
     fun getSongsDetail(ids: String, callBack: RequestCallBack<SongDetailJson>)
 
